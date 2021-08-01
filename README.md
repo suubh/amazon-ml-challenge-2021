@@ -7,7 +7,7 @@ This is our submission for **Amazon ML Challenge 2021** on **Product Browse Node
 
 ## Rank
 ![Leaderboard - Amazon ML Challenge - HackerEarth 8-2-2021 12-04-09 AM](https://user-images.githubusercontent.com/47265493/127781831-451440fb-8786-48ee-acda-e6c9ee4be35d.png)
-
+*(387 out of 3290)
 
 
 ## Our Team
