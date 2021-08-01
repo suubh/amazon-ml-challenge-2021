@@ -1,0 +1,42 @@
+﻿AMAZON ML CHALLENGE
+MOUNT-CODERS
+
+
+
+
+Product Browse Node Classification :
+Amazon catalog consists of billions of products that belong to thousands of browse nodes (each browse node represents a collection of items for sale). Browse nodes are used to help customers navigate through our website and classify products to product type groups. Hence, it is important to predict the node assignment at the time of listing of the product or when the browse node information is absent. 
+Use product metadata to classify products into browse nodes.
+
+
+Approach :
+
+
+The following tasks were undertaken for the product browse node classification -
+
+
+1. Initially we used libraries like `pandas` `numpy ` csv` and downloaded the dataset using wget and unzipped the file to get training and test datasets.
+
+
+2. The dataset and several of its hidden parameters were visualised using  pandas libraries like :
+*  info() 
+*  describe() .
+This then helped in data cleaning like removal of NULL values and noise in the dataset.
+
+
+3. We then used a pandas inbuilt library called factorize() to encode the training and testing dataset. We also found out the categories as stated the number of classes in Train – 9,919.
+
+
+4. We divided our training dataset in x and y labels using iloc to apply the ML algorithm.
+
+
+5. We again imported the required libraries from sklearn for classifiers  and confusion matrix.
+
+
+6. Then, the following Machine Learning algorithms (using `scikit-learn` libraries) were applied on the dataset:
+
+
+* K Nearest Neighbours
+
+
+7. Then we predicted our result from the test dataset which we prepared in previous steps and saved the required output in CSV format.
